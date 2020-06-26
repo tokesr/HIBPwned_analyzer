@@ -1,0 +1,59 @@
+{
+  "name": "HIBPwned_AccountPaste",
+  "version": "1.0",
+  "author": "Sandor Tokesi",
+  "url": "forensixchange.com",
+  "license": "AGPL-V3",
+  "description": "HaveIBeenPwned: get informatoin about pastes based on email address.",
+  "dataTypeList": [
+    "mail"
+  ],
+  "baseConfig": "HIBPwned",
+  "config": {
+    "service": "account_paste",
+    "url": "https://haveibeenpwned.com/api/v3/pasteaccount/"
+  },
+  "command": "HIBPwned/hibp_analyzer.py",
+  "configurationItems": [
+    {
+      "name": "unverified",
+      "description": "Include unverified breaches (not used in case of site breaches)",
+      "type": "boolean",
+      "multi": false,
+      "required": false,
+      "defaultValue": true
+    },
+    {
+      "name": "truncate",
+      "description": "Get only the name of the breaches but not the details (not used in case of site breaches)",
+      "type": "boolean",
+      "multi": false,
+      "required": false,
+      "defaultValue": false
+    },
+    {
+      "name": "api_key",
+      "description": "Api key for haveibeenpwned.com",
+      "type": "string",
+      "multi": false,
+      "required": true,
+      "defaultValue": ""
+    },
+    {
+      "name": "retries",
+      "description": "Amount of retries after a failed attempt",
+      "type": "number",
+      "multi": false,
+      "required": false,
+      "defaultValue": 5
+    },
+    {
+      "name": "user_agent",
+      "description": "You can define the user agent or use the default one",
+      "type": "string",
+      "multi": false,
+      "required": false,
+      "defaultValue": "Cortex HIBPwned analyzer UA"
+    }
+  ]
+}
