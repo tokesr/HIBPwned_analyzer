@@ -29,3 +29,6 @@ for I in $(find Cortex-Analyzers -name 'requirements.txt'); do sudo -H pip3 inst
 ```
 
 The report templates can be installed on theHive GUI by drag-n-drop-ing the zip files from thehive-templates folder one-by-one.
+
+#### Info
+version = 1.0
