@@ -17,7 +17,7 @@
   "configurationItems": [
     {
       "name": "unverified",
-      "description": "Include unverified breaches (not used in case of site breaches)",
+      "description": "Include unverified breaches",
       "type": "boolean",
       "multi": false,
       "required": false,
@@ -25,7 +25,7 @@
     },
     {
       "name": "truncate",
-      "description": "Get only the name of the breaches but not the details (not used in case of site breaches)",
+      "description": "Get only the name of the breaches but not the details",
       "type": "boolean",
       "multi": false,
       "required": false,
