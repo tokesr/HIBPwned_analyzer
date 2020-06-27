@@ -2,7 +2,7 @@
   "name": "HIBPwned_AccountBreach",
   "version": "1.0",
   "author": "Sandor Tokesi",
-  "url": "forensixchange.com",
+  "url": "https://github.com/tokesr/HIBPwned_analyzer",
   "license": "AGPL-V3",
   "description": "HaveIBeenPwned: find out if an account has been breached",
   "dataTypeList": [
@@ -45,7 +45,7 @@
       "type": "number",
       "multi": false,
       "required": false,
-      "defaultValue": 5
+      "defaultValue": 3
     },
     {
       "name": "user_agent",
