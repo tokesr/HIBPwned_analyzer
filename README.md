@@ -1,10 +1,11 @@
-This project is a Cortex analyzer to find account breaches, account pastes, and site breaches by using the haveibeenpwned.com API.
+**HIBPwned_analyzer** is a Cortex analyzer to find account breaches, account pastes, and site breaches by using the haveibeenpwned.com API.
 Be aware this is not the official HIBP analyzer for Cortex. I added two additional queries to that one because these are also frequently used by analysts (these or similar functionalities on other sites).
 
 The analyzer comes in three different flavors:
-1. : AccountBreach: Provides information about account breaches. If a breach happened and it is stored on haveibeenpwned.com the analyzer will return with true *(report will contain the details)* and false if the account hasn't been breached.
-1. : AccountPaste: Provides information about pastes of an account. If any paste were found the value is going to be true.
-1. : SiteBreach: Provides information about a site breach.
+1. AccountBreach: Provides information about account breaches. If a breach happened and it is stored on haveibeenpwned.com the analyzer will return with true (report will contain the details) and false if the account hasn't been breached.
+1. AccountPaste: Provides information about pastes of an account. If any paste were found the value is going to be true.
+1. SiteBreach: Provides information about a site breach.
+1. (The fourth service of haveibeenpwned.com is to look for leaked passwords based on hashes. This functionality is not implemented in the analyzer because based on my experience analysts are not really using it)
 
 
 # Configuration settings:
