@@ -1,4 +1,4 @@
-**HIBPwned_analyzer** is a Cortex analyzer to find account breaches, account pastes, and site breaches by using the haveibeenpwned.com API.
+**HIBPwned_analyzer** is a Cortex analyzer to find account breaches, account pastes, and site breaches by using the haveibeenpwned.com API (version 3).
 Be aware this is not the official HIBP analyzer for Cortex. I added two additional queries to that one because these are also frequently used by analysts *(these or similar functionalities on other sites).*
 
 The analyzer comes in three different flavors:
