@@ -17,7 +17,7 @@ The analyzer comes in three different flavors:
 
 
 ## Installation
-You can install the analyzers (different flavors) by copying the content of HIBPwned folder into your analyzer folder on the Cortex server. You can install (copy) all of the flavors or only the ones you really need.
+You can install the analyzers (different flavors) by copying the content of HIBPwned folder *(the folder as well, not just the files)* into your analyzer folder on the Cortex server. You can install (copy) all of the flavors or only the ones you really need.
 
 After copying the file you have to install the python modules from the requirements.txt file.
 
